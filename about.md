@@ -21,7 +21,7 @@ You can find my detailed [CV] here
 [InPTA]:http://inpta.iitr.ac.in/index.html
 
 
-![Image](./assets/images/profile.jpg "Image")
+![Image](./assets/images/banners/profile.jpg "Image")
 
 > **Here are links to my publications, thesis, project reports and some other science I may have done**
 
