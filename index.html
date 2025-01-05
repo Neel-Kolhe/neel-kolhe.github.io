@@ -1,49 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="/assets/css/style.css">
-</head>
-<body>
-    <div class="banner">
-        <img src="/assets/images/banners/banner.png" alt="Banner" style="width: 100%; height: auto;">
+---
+layout: default
+title: Home
+---
+
+<div class="banner">
+    <img src="/assets/images/banners/banner.png" alt="Banner">
+</div>
+
+<div class="about-me">
+    <h1>Welcome to My Website</h1>
+    <p>Hello! I am [Your Name], a researcher and writer passionate about [Your Interests]. Explore my work below!</p>
+</div>
+
+<div class="content">
+    <!-- Research Section -->
+    <div class="research">
+        <h2>Research</h2>
+        <ul>
+            {% for post in site.posts %}
+            {% if post.category == "research" %}
+            <li>
+                <a href="{{ post.url }}">{{ post.title }}</a>: {{ post.excerpt | strip_html | truncatewords: 20 }}
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ul>
     </div>
 
-    <div class="about-me" style="text-align: center; margin: 20px 0;">
-        <h1>Welcome to My Website</h1>
-        <p>Hello! I am [Your Name], a researcher and writer passionate about [Your Interests]. Explore my work below!</p>
+    <!-- Other Writings Section -->
+    <div class="writings">
+        <h2>Other Writings and Projects</h2>
+        <ul>
+            {% for post in site.posts %}
+            {% if post.category == "projects" %}
+            <li>
+                <a href="{{ post.url }}">{{ post.title }}</a>: {{ post.excerpt | strip_html | truncatewords: 20 }}
+            </li>
+            {% endif %}
+            {% endfor %}
+        </ul>
     </div>
-
-    <div class="content" style="display: flex; gap: 20px; justify-content: center;">
-        <!-- Research Section -->
-        <div class="research" style="flex: 1;">
-            <h2>Research</h2>
-            <ul>
-                {% for post in site.posts %}
-                {% if post.category == "research" %}
-                <li>
-                    <a href="{{ post.url }}">{{ post.title }}</a>: {{ post.excerpt | strip_html | truncatewords: 20 }}
-                </li>
-                {% endif %}
-                {% endfor %}
-            </ul>
-        </div>
-
-        <!-- Other Writings Section -->
-        <div class="writings" style="flex: 1;">
-            <h2>Other Writings and Projects</h2>
-            <ul>
-                {% for post in site.posts %}
-                {% if post.category == "projects" %}
-                <li>
-                    <a href="{{ post.url }}">{{ post.title }}</a>: {{ post.excerpt | strip_html | truncatewords: 20 }}
-                </li>
-                {% endif %}
-                {% endfor %}
-            </ul>
-        </div>
-    </div>
-</body>
-</html>
+</div>
