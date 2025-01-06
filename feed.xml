@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/jekyll-theme-yat/feed.xml" rel="self" type="application/atom+xml" /><link href="/jekyll-theme-yat/" rel="alternate" type="text/html" /><updated>2025-01-06T02:06:21+00:00</updated><id>/jekyll-theme-yat/feed.xml</id><title type="html">shenanigans</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><author><name>GitHub User</name></author><entry><title type="html">Evidence for profile changes in psr j1713+0747 using the ugmrt</title><link href="/jekyll-theme-yat/research/2021/09/01/Evidence-for-profile-changes-in-PSR-J1713+0747-using-the-uGMRT.html" rel="alternate" type="text/html" title="Evidence for profile changes in psr j1713+0747 using the ugmrt" /><published>2021-09-01T00:00:00+00:00</published><updated>2021-09-01T00:00:00+00:00</updated><id>/jekyll-theme-yat/research/2021/09/01/Evidence%20for%20profile%20changes%20in%20PSR%20J1713+0747%20using%20the%20uGMRT</id><content type="html" xml:base="/jekyll-theme-yat/research/2021/09/01/Evidence-for-profile-changes-in-PSR-J1713+0747-using-the-uGMRT.html"><![CDATA[<p>In April of 2021 the pulsar PSR J1713-0747 underwent a profile change. Pulsar profiles are like the fingerprints of a pulsar and they can teach us a lot about the physical characteristics of the pulsar. 
+Profile changes are very rare in millisecond pulsars such as J1713 and only a handful have been reported so far. 
+Characterising these changes can be crucial for PTA experiments as a change in profile can accompany a change in timing, 
+which can introduce timing noise in the PTA dataset. J1713 is one of the best timed pulsar in the International Pulsar Timing Array data sets, 
+with a robust high signal to noise ratio time series in almost all of its prolonged observations. A profile change displayed by it therefore of particular interest.</p>
+
+<p><img src="/assets/images/profilechange.png" alt="Image" title="Image" /></p>
+<figcaption>Profile changes observed at Band 3 and Band 5 before and after MJD 59321 are shown in this figure. The colour-map plots show the variation in
+profile with observation epochs indicated in MJD along the vertical axes for Band 3 (left plot) and Band 5 (right plot), respectively, where the profile change
+epoch is indicated by arrows. The plots in the center show the frequency and time collapsed profiles before (I-A and I-B) and after (II-A and II-B) the event for
+Band 3 (left plots), and Band 5 (right plots) as solid lines.</figcaption>
+
+<p>The Indian Pulsar Timing Array, along with other PTA organizations caught this profile change during their regular observations. It was observed in both band 3 and band 5 and the change is clearly visible in both.
+ We launched a high cadence observation campaign to monitor the recovery.</p>
+
+<p><img src="/assets/images/profilechangecomparison.png" alt="Image" title="Image" /></p>
+<figcaption>A comparison of profiles before (left-hand column) and after (right-hand column) the profile change event with templates formed from epochs before
+the event. The first and third rows show the profile comparisons in Bands 3 and 5, respectively where we have plotted the scaled and aligned profiles from two
+representative epochs from before (MJD 59287) and after (MJD 59367) the event in arbitrary units. In the second and fourth rows, we plot respectively for
+Bands 3 and 5, (a) the median profile differences computed from the profiles of all epochs before and after the event normalized by the corresponding off-pulse
+RMS of the profiles as solid black line, and (b) the standard deviations of the profile differences normalized by the off-pulse RMS as grey filled area. A much
+higher variability (∼12 times the off-pulse RMS) is seen for post-EoT profiles at Band 5 when compared to Band 3.</figcaption>
+
+<p>I contributed to the observations using the uGMRT, data reduction, analysis and public outreach in this particular project. 
+ This was my first experience working with a large number of collaborators, and it was a great learning experience to be able to coordinate with experts from disparate areas of expertise and help put it all together. 
+ I gained experience with the telescope and the operations surrounding it, including phase calibration, how to create setups to avoid possible satellites which could be RFI sources, etc. It also gave me experience with pulsar science softwares like TEMPO2 and PSRCHIVE.  High cadence observation campaign of the pulsar continues and I will be a part of the team doing the follow up study.</p>
+
+<p>The change is more pronounced in band 5 than in band 3 and is showing a 159 day exponential recovery, which suggests there might have been magnetospheric changes in the pulsar which realigned the beams
+ (which are now making a recovery) and it is unlikely to be an ISM event. Our results were published in MNRS-letters, <a href="https://academic.oup.com/mnrasl/article/507/1/L57/6356572">which you can find here</a></p>
+
+<p><img src="/assets/images/timingresiduals.png" alt="Image" title="Image" /></p>
+<figcaption>The timing residuals for 4 sub-bands each in Bands 3 and 5 around
+the profile change event are shown in this figure as black and grey points.
+The dashed lines indicate a fit to an exponential dip model with chromatic
+index as a free parameter α = −1.34. The residuals obtained by subtracting
+the model from the data are shown in the bottom plot.</figcaption>]]></content><author><name>GitHub User</name></author><category term="Research" /><category term="Radio-Astronomy" /><summary type="html"><![CDATA[In April of 2021 the pulsar PSR J1713-0747 underwent a profile change. Pulsar profiles are like the fingerprints of a pulsar and they can teach us a lot about the physical characteristics of the pulsar. Profile changes are very rare in millisecond pulsars such as J1713 and only a handful have been reported so far. Characterising these changes can be crucial for PTA experiments as a change in profile can accompany a change in timing, which can introduce timing noise in the PTA dataset. J1713 is one of the best timed pulsar in the International Pulsar Timing Array data sets, with a robust high signal to noise ratio time series in almost all of its prolonged observations. A profile change displayed by it therefore of particular interest.]]></summary></entry><entry><title type="html">Master’s Thesis Pulsar Timing and Binary Black holes in Hyperbolic orbits</title><link href="/jekyll-theme-yat/research/2021/08/01/Master's-Thesis-Pulsar-Timing-and-Binary-Black-holes-in-Hyperbolic-orbits.html" rel="alternate" type="text/html" title="Master’s Thesis Pulsar Timing and Binary Black holes in Hyperbolic orbits" /><published>2021-08-01T00:00:00+00:00</published><updated>2021-08-01T00:00:00+00:00</updated><id>/jekyll-theme-yat/research/2021/08/01/Master&apos;s%20Thesis%20Pulsar%20Timing%20and%20Binary%20Black%20holes%20in%20Hyperbolic%20orbits</id><content type="html" xml:base="/jekyll-theme-yat/research/2021/08/01/Master&apos;s-Thesis-Pulsar-Timing-and-Binary-Black-holes-in-Hyperbolic-orbits.html"><![CDATA[<p>My master’s thesis was on  ‘Pulsar Timing Array signals from supermassive black hole binaries in hyperbolic orbits’. 
+Pulsar timing as a science and pulsar timing arrays in particular have been maturing rapidly. 
+They use millisecond pulsars spread across the galaxy as very precise clocks to eventually detect nanohertz gravitational waves. 
+This requires high cadence and sensitive observations of pulsars for many years and decades. 
+The sensitivity of these experiments is currently high enough to detect the supermassive black hole gravitational wave background (GWB), 
+and results are expected in the coming years. 
+Later in the decade, when the SKA comes online, it is expected that PTAs will be able to detect individual binaries. 
+There currently is a robust collection of models to detect circular and eccentric binaries in PTA data sets whenever they reach appropriate sensitivities. 
+However there hasn’t been a lot of work around unbound hyperbolic orbits.</p>
+
+<p><img src="/assets/images/banners/hyperbolic.png" alt="Image" title="Image" /></p>
+<blockquote>
+  <p><em>PN accurate Hyperbolic orbits</em></p>
+</blockquote>
+
+<p>These are of particular interest to us because hyperbolic encounters may tip stable orbits into mergers, 
+which may contribute the the resolution of the final parsec problem of SMBH mergers and they are also interesting from the perspective of testing GR, 
+as they are expected to display the linear memory effect, which is expected to induce a long lasting change in space time metric. 
+Hence my supervisor, Professor Achamveedu Gopakumar from the Tata Institute of Fundamental Research  suggested that 
+we take up the task of modelling how pulsar timing array residuals will look after making a detection of hyperbolic encounters.
+This involved characterising the relativistic unbound orbit in the post newtonian formalism,
+integrating it using an efficient solver (we use Seppo Mikkola’s method), 
+obtaining the correct polarisation templates and finally calculating how the response will be in pulsar residuals.</p>
+
+<p><img src="/assets/images/banners/polarisations.png" alt="Image" title="Image" /></p>
+<blockquote>
+  <p><em>plus and cross polarisations of the Grativational wave, the cross polarisation shows the linear memory effect</em></p>
+</blockquote>
+
+<p>All of this was successfully done till the 1PN order as a part of my thesis as compiled as a python program. 
+We clearly see the linear memory effect contributing to the residuals. 
+We also concluded that such an encounter will indeed be in the detection sensitivity of the SKA aided PTAs.</p>
+
+<p>Characterising the orbit was a unique challenge because this is not a periodic orbit, there being no definite start or end point before or after the encounter, 
+ it had to be done by using an impact parameter term, and starting the orbit integration from an angle θmax.
+ The pulsar position as well as the source position had to be included in the procedure to put in the correct antenna pattern parameters. 
+ We are currently working on taking this particular prescription beyond 1PN right up to 3.5PN, 
+ which has its own challenges,</p>
+
+<p><img src="/assets/images/banners/residuals.png" alt="Image" title="Image" /></p>
+<blockquote>
+  <p><em>Residuals at various eccentricities</em></p>
+</blockquote>
+
+<p>we expect to have results for the 3.5PN version sometime in early 2022, with burst sources with linear memory studied further.</p>
+
+<p>2024 Update: The work for the thesis was taken further  by my colleagues as a part of a larger project, <a href="https://journals.aps.org/prd/abstract/10.1103/PhysRevD.108.024013">you can find the paper here.</a> and <a href="https://drive.google.com/file/d/1jkfx-3fpyrPwdlL1-jOnyTV78SCdoNB_/view">on arxiv</a> to read the full thesis!</p>]]></content><author><name>GitHub User</name></author><category term="Research" /><category term="Gravitational-Waves" /><summary type="html"><![CDATA[My master’s thesis was on ‘Pulsar Timing Array signals from supermassive black hole binaries in hyperbolic orbits’. Pulsar timing as a science and pulsar timing arrays in particular have been maturing rapidly. They use millisecond pulsars spread across the galaxy as very precise clocks to eventually detect nanohertz gravitational waves. This requires high cadence and sensitive observations of pulsars for many years and decades. The sensitivity of these experiments is currently high enough to detect the supermassive black hole gravitational wave background (GWB), and results are expected in the coming years. Later in the decade, when the SKA comes online, it is expected that PTAs will be able to detect individual binaries. There currently is a robust collection of models to detect circular and eccentric binaries in PTA data sets whenever they reach appropriate sensitivities. However there hasn’t been a lot of work around unbound hyperbolic orbits.]]></summary></entry><entry><title type="html">VSRP project on Temperature of Neutral Hydrogen in the Milky way</title><link href="/jekyll-theme-yat/research/2020/08/08/VSRP-project-on-Temperature-of-Neutral-Hydrogen-in-the-Milky-way.html" rel="alternate" type="text/html" title="VSRP project on Temperature of Neutral Hydrogen in the Milky way" /><published>2020-08-08T00:00:00+00:00</published><updated>2020-08-08T00:00:00+00:00</updated><id>/jekyll-theme-yat/research/2020/08/08/VSRP%20project%20on%20Temperature%20of%20Neutral%20Hydrogen%20in%20the%20Milky%20way</id><content type="html" xml:base="/jekyll-theme-yat/research/2020/08/08/VSRP-project-on-Temperature-of-Neutral-Hydrogen-in-the-Milky-way.html"><![CDATA[<p>In summer 2020 as a part of the visiting student research program at the National Center for Radio Astrophysics,
+I studied the temperature of neutral hydrogen along quasar sightlines using the 21cm line with Professor Nissim Kanekar. 
+The prevailing theory on the spin temperatures of Neutral hydrogen distributed in the Milky Way suggest that most of it exist in 2 phases, 
+the cold neutral medium which is expected to be between 40K to 200K and a warm neutral medium which is expected to be between 5000K to 8000K. 
+On the contrary to this, there has been consistent evidence provided by folks such as <a href="https://academic.oup.com/mnras/article/436/3/2366/1256401">Roy et.al 2013</a>, that there exists a third thermally unstable phase between 200K to 5000K.</p>
+
+<p><img src="/assets/images/banners/raw 3c216.png" alt="Image" title="Image" /></p>
+<blockquote>
+  <p><em>Raw data of a 21cm observation along the sighlines of Quasar 3c216</em></p>
+</blockquote>
+
+<p>Basing our methodology on their approach and some available data from WSRT, GMRT, etc along 7 quasar sightlines, we tried to estimate the spin temperature in absorption. 
+There is a relation between the spin temperature and the width of each component of absorption along the sightline, we attempted a gaussian fit to get these widths and eventually temperatures. 
+Our results seemed to agree with the conclusions of <a href="https://academic.oup.com/mnras/article/436/3/2366/1256401">Roy et.al 2013</a> that most of the gaussian components had a spin temperature between 5000K to 8000K. 
+This was my first foray into using interferometric data, and radio astronomy in general, and I spent a lot of time understanding how an interferometer functions and also how best fit models work.</p>
+
+<p><img src="/assets/images/banners/3c216.png" alt="Image" title="Image" /></p>
+<blockquote>
+  <p><em>Fitting Gaussians to the data and estimating each component to be a possible ‘cloud’ of neutral hydrogen. The Gaussian component widths can help us estimate their temperature</em></p>
+</blockquote>]]></content><author><name>GitHub User</name></author><category term="Research" /><category term="Radio-Astronomy" /><summary type="html"><![CDATA[In summer 2020 as a part of the visiting student research program at the National Center for Radio Astrophysics, I studied the temperature of neutral hydrogen along quasar sightlines using the 21cm line with Professor Nissim Kanekar. The prevailing theory on the spin temperatures of Neutral hydrogen distributed in the Milky Way suggest that most of it exist in 2 phases, the cold neutral medium which is expected to be between 40K to 200K and a warm neutral medium which is expected to be between 5000K to 8000K. On the contrary to this, there has been consistent evidence provided by folks such as Roy et.al 2013, that there exists a third thermally unstable phase between 200K to 5000K.]]></summary></entry></feed>
