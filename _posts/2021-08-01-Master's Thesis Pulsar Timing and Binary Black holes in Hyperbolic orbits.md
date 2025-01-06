@@ -29,7 +29,7 @@ This involved characterising the relativistic unbound orbit in the post newtonia
 integrating it using an efficient solver (we use Seppo Mikkola’s method), 
 obtaining the correct polarisation templates and finally calculating how the response will be in pulsar residuals. 
 
-![Image](/images/banners/polarisations.png "Image")
+![Image](/assets/images/banners/polarisations.png "Image")
 > *plus and cross polarisations of the Grativational wave, the cross polarisation shows the linear memory effect* 
 
 All of this was successfully done till the 1PN order as a part of my thesis as compiled as a python program. 
@@ -43,7 +43,7 @@ We also concluded that such an encounter will indeed be in the detection sensiti
  which has its own challenges,
  
  
-![Image](/images/banners/residuals.png "Image")
+![Image](/assets/images/banners/residuals.png "Image")
 > *Residuals at various eccentricities*
  
  
