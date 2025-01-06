@@ -12,7 +12,7 @@ The prevailing theory on the spin temperatures of Neutral hydrogen distributed i
 the cold neutral medium which is expected to be between 40K to 200K and a warm neutral medium which is expected to be between 5000K to 8000K. 
 On the contrary to this, there has been consistent evidence provided by folks such as [Roy et.al 2013], that there exists a third thermally unstable phase between 200K to 5000K. 
 
-![Image](/assets/images/raw 3c216.png "Image")
+![Image](/assets/images/banners/raw 3c216.png "Image")
 > *Raw data of a 21cm observation along the sighlines of Quasar 3c216*  
 
 
@@ -26,7 +26,7 @@ This was my first foray into using interferometric data, and radio astronomy in 
 
 
 
-![Image](/assets/images/3c216.png "Image")
+![Image](/assets/images/banners/3c216.png "Image")
 >*Fitting Gaussians to the data and estimating each component to be a possible 'cloud' of neutral hydrogen. The Gaussian component widths can help us estimate their temperature*  
 
 
