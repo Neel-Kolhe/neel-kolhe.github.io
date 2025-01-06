@@ -1,14 +1,19 @@
 <section class="page-banner">
   <div class="page-banner-img">
-    <div style="background-image: url(/assets/images/banners/banner2.png); background-size: cover; background-position: center; width: 100%; height: 330px;">
+    <div style="background-image: url({{ banner_image }}); background-size: cover; background-position: center; width: 100%; height: {{ banner_height | default: '400px' }};">
     </div>
   </div>
   <div class="wrapper">
     <div class="page-banner-inner">
-      <div class="page-banner-default">
-        <h1 class="page-banner-heading">Welcome to My Website</h1>
-        <h2 class="page-banner-subheading">Explore Research and Projects</h2>
-      </div>
+      {%- if banner_html -%}
+        {%- assign banner_html = 'views/' | append: banner_html -%}
+        {%- include {{ banner_html }} -%}
+      {%- else -%}
+        <div class="page-banner-default">
+          <h1 class="page-banner-heading">{{ heading | default: page.title | escape }}</h1>
+          <h2 class="page-banner-subheading">{{ subheading | default: page.subtitle | escape }}</h2>
+        </div>
+      {%- endif -%}
     </div>
   </div>
 </section>
