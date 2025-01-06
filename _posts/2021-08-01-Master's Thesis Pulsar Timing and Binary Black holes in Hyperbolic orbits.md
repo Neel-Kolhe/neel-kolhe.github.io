@@ -17,7 +17,7 @@ Later in the decade, when the SKA comes online, it is expected that PTAs will be
 There currently is a robust collection of models to detect circular and eccentric binaries in PTA data sets whenever they reach appropriate sensitivities. 
 However there hasn’t been a lot of work around unbound hyperbolic orbits. 
 
-![Image](/assets/images/hyperbolic.png "Image")
+![Image](/assets/images/banners/hyperbolic.png "Image")
 > *PN accurate Hyperbolic orbits* 
 
 These are of particular interest to us because hyperbolic encounters may tip stable orbits into mergers, 
@@ -29,7 +29,7 @@ This involved characterising the relativistic unbound orbit in the post newtonia
 integrating it using an efficient solver (we use Seppo Mikkola’s method), 
 obtaining the correct polarisation templates and finally calculating how the response will be in pulsar residuals. 
 
-![Image](/images/polarisations.png "Image")
+![Image](/images/banners/polarisations.png "Image")
 > *plus and cross polarisations of the Grativational wave, the cross polarisation shows the linear memory effect* 
 
 All of this was successfully done till the 1PN order as a part of my thesis as compiled as a python program. 
@@ -43,7 +43,7 @@ We also concluded that such an encounter will indeed be in the detection sensiti
  which has its own challenges,
  
  
-![Image](/images/residuals.png "Image")
+![Image](/images/banners/residuals.png "Image")
 > *Residuals at various eccentricities*
  
  
