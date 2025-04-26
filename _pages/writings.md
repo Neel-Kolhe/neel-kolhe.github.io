@@ -1,6 +1,6 @@
 ---
 title: "Other Writings"
-permalink: /Other_Writings/
+permalink: /writings/
 author_profile: true
 ---
 
