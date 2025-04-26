@@ -219,9 +219,7 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  Other_Writings:
-    output: true
-    permalink: /:collection/:path/
+
   talks:
     output: true
     permalink: /:collection/:path/
@@ -265,15 +263,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _Other_Writings
-  - scope:
-      path: ""
-      type: Other_Writings
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
+
   # _talks
   - scope:
       path: ""
