@@ -41,3 +41,11 @@
     "vendor/font-awesome/brands",
     "vendor/magnific-popup/magnific-popup"
 ;
+
+
+/* put this in a custom SCSS/CSS file that loads after main.css */
+.archive .archive__item,
+.archive .archive__item p,
+.archive .archive__item li {
+  font-size: 0.9em;  /* adjust smaller as needed */
+}
