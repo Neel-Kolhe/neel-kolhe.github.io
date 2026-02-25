@@ -131,6 +131,45 @@ const SITE = {
       },
     },
 
+    {
+      id:    "writings",
+      label: "Other Writings",
+      sidebar: {
+        left:  null,
+        right: null,
+      },
+      content: {
+        type: "writings",
+        items: [
+          {
+            title: "Title of Blog Post or Article 1",
+            date:  "January 2024",
+            text:  `A brief description of this writing piece. This could be a blog post,
+                   opinion article, or popular science piece explaining your research to
+                   a broader audience.`,
+            linkLabel: "Read more →",
+            url:  "#",
+          },
+          {
+            title: "Title of Blog Post or Article 2",
+            date:  "December 2023",
+            text:  `Another piece of writing that showcases your communication skills
+                   and ability to engage with different audiences beyond academic papers.`,
+            linkLabel: "Read more →",
+            url:  "#",
+          },
+          {
+            title: "Title of Blog Post or Article 3",
+            date:  "October 2023",
+            text:  `Reflections on your research journey, explanations of complex topics,
+                   or thoughts on current developments in your field.`,
+            linkLabel: "Read more →",
+            url:  "#",
+          },
+        ],
+      },
+    },
+
     // ── CV ──────────────────────────────────────────────────
     {
       id:    "cv",
