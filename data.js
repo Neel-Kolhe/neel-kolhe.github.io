@@ -142,13 +142,12 @@ const SITE = {
         type: "writings",
         items: [
           {
-            title: "Title of Blog Post or Article 1",
-            date:  "January 2024",
-            text:  `A brief description of this writing piece. This could be a blog post,
-                   opinion article, or popular science piece explaining your research to
-                   a broader audience.`,
+            title: "Near-Miss Collisions with Starlink Satellites Are a Wake-Up Call for the Space Sector",
+            date:  "March 2025",
+            text:  `With more satellite constellations soon to be in orbit, there needs to be a global dialogue about the unintended consequences of orbit crowding, 
+            light pollution and space debris.`,
             linkLabel: "Read more →",
-            url:  "#",
+            url:  "https://thewire.in/space/near-miss-collisions-with-starlink-satellites-are-a-wake-up-call-for-the-space-sector",
           },
           {
             title: "Title of Blog Post or Article 2",
