@@ -20,7 +20,7 @@ const SITE = {
 
   // ── PROFILE LINKS (shown on Home & Publications) ──────────
   profileLinks: [
-    { label: "Google Scholar", url: "https://scholar.google.com" },
+    { label: "Google Scholar", url: "https://scholar.google.com/citations?user=uNi-v5sAAAAJ&hl=en" },
     { label: "ORCID",          url: "https://orcid.org" },
     { label: "INSPIRE-HEP",    url: "https://inspirehep.net" },
     { label: "arXiv",          url: "https://arxiv.org" },
@@ -30,8 +30,8 @@ const SITE = {
   socialLinks: [
     { label: "Twitter",   url: "https://twitter.com/neel_kolhe" },
     { label: "Instagram", url: "https://www.instagram.com/neel_observes/" },
-    { label: "GitHub",    url: "https://github.com/yourusername" },
-    { label: "LinkedIn",  url: "https://linkedin.com/in/yourprofile" },
+    //{ label: "GitHub",    url: "https://github.com/yourusername" },
+    //{ label: "LinkedIn",  url: "https://linkedin.com/in/yourprofile" },
   ],
 
   // ══════════════════════════════════════════════════════════
@@ -55,7 +55,11 @@ const SITE = {
           the dynamics of Dwarf Irregular galaxies using state-of-the-art 21 cm
           Radio observations and N-body hydrodynamical simulations. Dwarf Irregulars
           are the most common galaxy type in the universe, and yet their dynamics
-          and evolution on a cosmological time scale is poorly understood.`,
+          and evolution on a cosmological time scale is poorly understood.
+
+          
+        
+          `,
 
           `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
