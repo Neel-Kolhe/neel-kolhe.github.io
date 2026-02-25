@@ -71,7 +71,7 @@ const SITE = {
     // ── PUBLICATIONS ────────────────────────────────────────
     {
       id:    "publications",
-      label: "Publications",
+      label: "Science Publications",
       sidebar: {
         left:  null,
         right: null,              // e.g. "assets/telescope.jpg"
