@@ -143,7 +143,7 @@ const SITE = {
         items: [
           {
             title: "Near-Miss Collisions with Starlink Satellites Are a Wake-Up Call for the Space Sector",
-            date:  "March 2025",
+            date:  "The Wire, March 2025",
             text:  `With more satellite constellations soon to be in orbit, there needs to be a global dialogue about the unintended consequences of orbit crowding, 
             light pollution and space debris.`,
             venue:   "The Wire",
