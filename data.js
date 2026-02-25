@@ -146,6 +146,7 @@ const SITE = {
             date:  "March 2025",
             text:  `With more satellite constellations soon to be in orbit, there needs to be a global dialogue about the unintended consequences of orbit crowding, 
             light pollution and space debris.`,
+            venue:   "The Wire",
             linkLabel: "Read more →",
             url:  "https://thewire.in/space/near-miss-collisions-with-starlink-satellites-are-a-wake-up-call-for-the-space-sector",
           },
