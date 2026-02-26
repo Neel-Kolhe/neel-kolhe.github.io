@@ -135,8 +135,8 @@ const SITE = {
       id:    "writings",
       label: "Other Writings",
       sidebar: {
-        left:  null,
-        right: null,
+        left:  "assets/bruckner-4.jpg",//null,               // e.g. "assets/milkyway.jpg"
+        right: "assets/bruckner-4.jpg",//null,
       },
       content: {
         type: "writings",
