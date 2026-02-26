@@ -116,9 +116,9 @@ nav a.nav-active {
   height: 800px;           /* adjust this value to taste */
   object-fit: cover;
   object-position: center;
-  border-radius: 10px;
+  border-radius: 1px;
   box-shadow: 0 4px 20px rgba(0,0,0,.18);
-  margin-bottom: 1rem;
+  margin-bottom: 0.1rem;
 }
 
 /* Second image in the same sidebar gets a shorter crop */
