@@ -177,8 +177,8 @@ const SITE = {
       id:    "outreach",
       label: "Talks",
       sidebar: {
-        left:  null,
-        right: null,
+        left:  "assets/sibe_bar_flower.jpg",               // e.g. "assets/milkyway.jpg"
+        right: "assets/milkdrop.jpg",//null,
       },
       content: {
         type: "outreach",
