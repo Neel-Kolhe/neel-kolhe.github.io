@@ -136,7 +136,7 @@ const SITE = {
       label: "Other Writings",
       sidebar: {
         
-        left:  "assets/voyager1.jpg",//null, // e.g. "assets/milkyway.jpg"
+        left:  "assets/bruckner-4.jpg",//null, // e.g. "assets/milkyway.jpg"
         right: "assets/sibe_bar_flower2.jpg",//null,
       },
       content: {
@@ -281,7 +281,7 @@ const SITE = {
       id:    "contact",
       label: "Contact",
       sidebar: {
-        left:  null,
+        left:  "assets/Haeckel_jelly.jpg",
         right: null,
       },
       content: {
