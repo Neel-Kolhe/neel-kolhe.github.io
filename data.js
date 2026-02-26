@@ -171,24 +171,11 @@ const SITE = {
       },
     },
 
-    // ── CV ──────────────────────────────────────────────────
-    {
-      id:    "cv",
-      label: "CV",
-      sidebar: {
-        left:  null,
-        right: null,
-      },
-      content: {
-        type:    "cv",
-        pdfPath: "assets/cv.pdf",
-      },
-    },
 
     // ── OUTREACH ────────────────────────────────────────────
     {
       id:    "outreach",
-      label: "Science Outreach",
+      label: "Talks",
       sidebar: {
         left:  null,
         right: null,
@@ -235,6 +222,23 @@ const SITE = {
         ],
       },
     },
+
+    
+    // ── CV ──────────────────────────────────────────────────
+    {
+      id:    "cv",
+      label: "CV",
+      sidebar: {
+        left:  null,
+        right: null,
+      },
+      content: {
+        type:    "cv",
+        pdfPath: "assets/cv.pdf",
+      },
+    },
+
+
 
     // ── WRITINGS ────────────────────────────────────────────
     {
