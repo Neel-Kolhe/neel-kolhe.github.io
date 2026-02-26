@@ -113,7 +113,7 @@ nav a.nav-active {
 .sidebar-img {
   display: block;
   width: 100%;
-  height: 480px;           /* adjust this value to taste */
+  height: 600px;           /* adjust this value to taste */
   object-fit: cover;
   object-position: center;
   border-radius: 10px;
