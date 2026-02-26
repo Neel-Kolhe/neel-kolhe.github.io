@@ -246,8 +246,8 @@ const SITE = {
       label: "Contact",
       sidebar: {
         left:  "assets/Haeckel_jelly.jpg",
-        right: "assets/jelly2.jpg",//null,
-        right: null,
+        right: "assets/jelly2.jpg",
+        
       },
       content: {
         type:  "contact",
