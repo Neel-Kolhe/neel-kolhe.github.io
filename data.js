@@ -46,7 +46,7 @@ const SITE = {
       label: "Home",
       sidebar: {
         left:  "assets/bruckner-4.jpg",               // e.g. "assets/milkyway.jpg"
-        right: "assets/bruckner-4.jpg",//null,
+        right: "assets/collage1.jpg",//null,
       },
       content: {
         type: "home",
