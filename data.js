@@ -73,8 +73,8 @@ const SITE = {
       id:    "publications",
       label: "Science Publications",
       sidebar: {
-        left:  "assets/sky5.jpg",
-        right: "assets/sky4.jpg",              // e.g. "assets/telescope.jpg"
+        left:  "assets/sibe_bar_flower.jpg",               // e.g. "assets/milkyway.jpg"
+        right: "assets/collage1.jpg",//null,             // e.g. "assets/telescope.jpg"
       },
       content: {
         type: "publications",
