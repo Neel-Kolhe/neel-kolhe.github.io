@@ -177,7 +177,7 @@ const SITE = {
       id:    "outreach",
       label: "Talks",
       sidebar: {
-        left:  "assets/sputnik.jpg",               // e.g. "assets/milkyway.jpg"
+        left:  "assets/sput.jpg",               // e.g. "assets/milkyway.jpg"
         right: "assets/sky3.jpg",//null,
       },
       content: {
