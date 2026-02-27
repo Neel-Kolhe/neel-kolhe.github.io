@@ -229,8 +229,8 @@ const SITE = {
       id:    "cv",
       label: "CV",
       sidebar: {
-        left:  "assets/sky1.jpg",               // e.g. "assets/milkyway.jpg"
-        right: "assets/sky2.jpg",//null,
+        left:  "assets/sky2.jpg",               // e.g. "assets/milkyway.jpg"
+        right: "assets/astro2.jpg",//null,
       },
       content: {
         type:    "cv",
