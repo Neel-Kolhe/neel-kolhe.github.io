@@ -46,7 +46,7 @@ const SITE = {
       label: "Home",
       sidebar: {
         left:  "assets/sibe_bar_flower.jpg",               // e.g. "assets/milkyway.jpg"
-        right: "assets/raven_vas.jpg",//null,
+        right: "assets/sky4.jpg",//null,
       },
       content: {
         type: "home",
@@ -73,7 +73,7 @@ const SITE = {
       id:    "publications",
       label: "Science Publications",
       sidebar: {
-        left:  "assets/sky4.jpg",               // e.g. "assets/milkyway.jpg"
+        left:  "assets/raven_vas.jpg",               // e.g. "assets/milkyway.jpg"
         right: "assets/sky5.jpg",//null,             // e.g. "assets/telescope.jpg"
       },
       content: {
