@@ -178,7 +178,7 @@ const SITE = {
       label: "Talks",
       sidebar: {
         left:  "assets/sput.jpg",               // e.g. "assets/milkyway.jpg"
-        right: "assets/sky3.jpg",//null,
+        right: "assets/sput2.jpg",//null,
       },
       content: {
         type: "outreach",
