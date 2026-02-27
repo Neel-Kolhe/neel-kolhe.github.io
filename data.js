@@ -46,7 +46,7 @@ const SITE = {
       label: "Home",
       sidebar: {
         left:  "assets/sibe_bar_flower.jpg",               // e.g. "assets/milkyway.jpg"
-        right: "assets/collage1.jpg",//null,
+        right: "assets/raven_vas.jpg",//null,
       },
       content: {
         type: "home",
