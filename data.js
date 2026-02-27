@@ -87,7 +87,7 @@ const SITE = {
             venue:   "Top Journal Name, Vol. 1(1), pp. 1–20, 2024",
             url:     "https://arxiv.org",           // set to null to hide link
           },
-          {5
+          {
             title:   "Title of Another Key Publication",
             authors: "Neel Kolhe, Collaborator 1, Collaborator 2",
             venue:   "Major Conference Proceedings, 2023",
