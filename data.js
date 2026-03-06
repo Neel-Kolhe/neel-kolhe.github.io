@@ -58,19 +58,10 @@ const SITE = {
           they are embedded in. 
           Dwarf Irregulars have long been known to have asymmetric kinematics, gas distributions offset from stellar structures,
           distinct dichotomies in their population of some being extremely gas rich and others not at all. My thesis work
-          aims to push towards a understanding the origins of these properties. 
-          
-          
-
-          
-          
-          
-          
-          are the most common galaxy type in the universe, and yet their dynamics
-          and evolution on a cosmological time scale is poorly understood.
-
-          
-        
+          aims to push towards a understanding the origins of these properties. Dwarf irregulars are the most common galaxy type in the universe, and 
+          their progenitors are considered to be the building blocks in the heirarchical merger growth and evolution of larger galaxies
+          and yet their dynamics is poorly understood. Isolated irregulars are often used test various ideas, spanning many subfields in studying dark matter.
+          Therefore a rigourous understanding of their dynamics is crucial. 
           `,
 
           `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
