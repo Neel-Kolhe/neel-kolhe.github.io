@@ -53,7 +53,19 @@ const SITE = {
         bio: [
           `I am a PhD scholar at the Paris Observatory. My current work focuses on
           the dynamics of Dwarf Irregular galaxies using state-of-the-art 21 cm
-          Radio observations and N-body hydrodynamical simulations. Dwarf Irregulars
+          Radio observations and N-body hydrodynamical simulations. I study internal gas
+          structures inside isolated irregulars and how they interact with the intergalactic medium (IGM)
+          they are embedded in. 
+          Dwarf Irregulars have long been known to have asymmetric kinematics, gas distributions offset from stellar structures,
+          distinct dichotomies in their population of some being extremely gas rich and others not at all. My thesis work
+          aims to push towards a understanding the origins of these properties. 
+          
+          
+
+          
+          
+          
+          
           are the most common galaxy type in the universe, and yet their dynamics
           and evolution on a cosmological time scale is poorly understood.
 
