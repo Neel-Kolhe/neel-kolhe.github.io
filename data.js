@@ -64,6 +64,9 @@ const SITE = {
           and yet their dynamics is poorly understood. Isolated irregulars are often used test various ideas, spanning many subfields in studying dark matter.
           Therefore a rigourous understanding of their dynamics is crucial`,
 
+          `### Other Interests`,
+          `how does this work`
+
 
         ],
       },
