@@ -401,3 +401,49 @@ footer {
   nav ul { gap: .6rem; }
   .page-main { padding: 1rem; }
 }
+
+/* ═══════════════════════════════════════════════════════════
+   MARKDOWN BODY — styles for rendered markdown content
+═══════════════════════════════════════════════════════════ */
+.md-body {
+  color: var(--muted);
+  line-height: 1.85;
+  font-size: clamp(.9rem, 1.1vw, 1rem);
+}
+
+.md-body p          { margin-bottom: .9rem; text-align: justify; }
+.md-body p:last-child { margin-bottom: 0; }
+
+.md-body h2,
+.md-body h3,
+.md-body h4         { font-family: 'Space Grotesk', sans-serif; color: var(--navy);
+                      margin: 1.4rem 0 .5rem; font-weight: 700; }
+.md-body h2         { font-size: 1.3rem; border-bottom: 1px solid var(--divider);
+                      padding-bottom: .3rem; }
+.md-body h3         { font-size: 1.1rem; }
+.md-body h4         { font-size: 1rem; }
+
+.md-body strong     { color: var(--navy); font-weight: 600; }
+.md-body em         { font-style: italic; }
+
+.md-body ul,
+.md-body ol         { margin: .5rem 0 .9rem 1.4rem; }
+.md-body li         { margin-bottom: .3rem; }
+
+.md-body a          { color: var(--blue); text-decoration: none; }
+.md-body a:hover    { text-decoration: underline; }
+
+.md-body hr         { border: none; border-top: 1px solid var(--divider);
+                      margin: 1.2rem 0; }
+
+.md-body blockquote { border-left: 3px solid var(--blue); margin: 1rem 0;
+                      padding: .4rem 1rem; color: var(--soft);
+                      background: var(--card-bg); border-radius: 0 4px 4px 0; }
+
+.md-body code       { font-family: 'Source Code Pro', monospace; font-size: .875em;
+                      background: var(--card-bg); padding: .15em .4em;
+                      border-radius: 3px; }
+
+/* Inside outreach/writing cards, md-body inherits the card's smaller context */
+.outreach-content .md-body,
+.writing-item .md-body { font-size: .95rem; }
