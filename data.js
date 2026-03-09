@@ -3,19 +3,26 @@
  *  WEBSITE DATA — Edit this file to update your website
  * ============================================================
  *
- *  SIDEBARS: Each section can optionally show images in the
- *  left/right columns. Set sidebar.left and/or sidebar.right
- *  to a path inside assets/, e.g. "assets/galaxy.jpg".
- *  Set to null to leave a sidebar empty for that section.
+ *  TEXT FORMATTING — All text fields support Markdown:
+ *
+ *    **bold**          *italic*          ~~strikethrough~~
+ *    ## Heading        ### Sub-heading   #### Smaller heading
+ *    - bullet item     1. numbered item
+ *    [link text](url)
+ *    ---               (horizontal rule)
+ *    > blockquote
+ *
+ *  SIDEBARS: Set sidebar.left / sidebar.right to an asset path,
+ *  or null to leave that side empty.
  * ============================================================
  */
 
 const SITE = {
 
   // ── META ──────────────────────────────────────────────────
-  name:       "Neel Kolhe",
-  footer:     "© 2025 Neel Kolhe. All rights reserved.",
-  headerImage: "assets/header.png",
+  name:         "Neel Kolhe",
+  footer:       "© 2025 Neel Kolhe. All rights reserved.",
+  headerImage:  "assets/header.png",
   profilePhoto: "assets/profile.jpg",
 
   // ── PROFILE LINKS (shown on Home & Publications) ──────────
@@ -36,7 +43,6 @@ const SITE = {
 
   // ══════════════════════════════════════════════════════════
   //  PAGES — add, remove, or reorder sections here
-  //  Each page needs: id, label, and content block
   // ══════════════════════════════════════════════════════════
   pages: [
 
@@ -45,30 +51,39 @@ const SITE = {
       id:    "home",
       label: "Home",
       sidebar: {
-        left:  "assets/sibe_bar_flower.jpg",               // e.g. "assets/milkyway.jpg"
-        right: "assets/sky4.jpg",//null,
+        left:  "assets/sibe_bar_flower.jpg",
+        right: "assets/sky4.jpg",
       },
       content: {
         type: "home",
-        bio: [
-          `I am a PhD scholar at the Paris Observatory. My current work focuses on
-          the dynamics of Dwarf Irregular galaxies using state-of-the-art 21 cm
-          Radio observations and N-body hydrodynamical simulations. I study internal gas
-          structures inside isolated irregulars and how they interact with the intergalactic medium (IGM)
-          they are embedded in.` 
-          ,
-          `Dwarf Irregulars have long been known to have asymmetric kinematics, gas distributions offset from stellar structures,
-          distinct dichotomies in their population of some being extremely gas rich and others not at all. My thesis work
-          aims to push towards a understanding the origins of these properties. Dwarf irregulars are the most common galaxy type in the universe, and 
-          their progenitors are considered to be the building blocks in the heirarchical merger growth and evolution of larger galaxies
-          and yet their dynamics is poorly understood. Isolated irregulars are often used test various ideas, spanning many subfields in studying dark matter.
-          Therefore a rigourous understanding of their dynamics is crucial`,
 
-          `<u><b>RESEARCH</b></u>`,
-          `how does this work`
+        // bio supports full Markdown — use ## for headings, **bold**, *italic*, - lists, etc.
+        bio: `
+I am a PhD scholar at the **Paris Observatory**. My current work focuses on the
+dynamics of **Dwarf Irregular galaxies** using state-of-the-art 21 cm Radio observations
+and N-body hydrodynamical simulations. I study internal gas structures inside isolated
+irregulars and how they interact with the intergalactic medium (IGM) they are embedded in.
 
+Dwarf Irregulars have long been known to have asymmetric kinematics, gas distributions
+offset from stellar structures, distinct dichotomies in their population — some being
+extremely gas rich and others not at all. My thesis work aims to push towards understanding
+the origins of these properties.
 
-        ],
+Dwarf irregulars are the most common galaxy type in the universe, and their progenitors
+are considered to be the building blocks in the hierarchical merger growth and evolution of
+larger galaxies, and yet their dynamics is poorly understood. Isolated irregulars are often
+used to test various ideas spanning many subfields, including dark matter studies. Therefore
+a rigorous understanding of their dynamics is crucial.
+
+---
+
+### Research Themes
+
+- **HI 21cm kinematics** of isolated dwarf irregulars
+- **N-body hydrodynamical simulations** of dwarf galaxy evolution
+- Interaction of dwarfs with the **intergalactic medium**
+- Dark matter distribution in low-surface-brightness galaxies
+        `,
       },
     },
 
@@ -77,19 +92,18 @@ const SITE = {
       id:    "publications",
       label: "Science Publications",
       sidebar: {
-        left:  "assets/raven_vas.jpg",               // e.g. "assets/milkyway.jpg"
-        right: "assets/sky5.jpg",//null,             // e.g. "assets/telescope.jpg"
+        left:  "assets/raven_vas.jpg",
+        right: "assets/sky5.jpg",
       },
       content: {
         type: "publications",
 
-        // ── Selected (shown first with a "Selected" heading) ──
         selected: [
           {
             title:   "Title of Your Most Important Publication",
             authors: "Author 1, Author 2, Neel Kolhe, Author 4",
             venue:   "Top Journal Name, Vol. 1(1), pp. 1–20, 2024",
-            url:     "https://arxiv.org",           // set to null to hide link
+            url:     "https://arxiv.org",
           },
           {
             title:   "Title of Another Key Publication",
@@ -99,7 +113,6 @@ const SITE = {
           },
         ],
 
-        // ── All publications ──────────────────────────────────
         all: [
           {
             title:   "Title of Publication 1",
@@ -135,114 +148,112 @@ const SITE = {
       },
     },
 
+    // ── WRITINGS ────────────────────────────────────────────
     {
       id:    "writings",
       label: "Other Writings",
       sidebar: {
-        
-        left:  "assets/collage1.jpg",//null, // e.g. "assets/milkyway.jpg"
-        right: "assets/sibe_bar_flower2.jpg",//null,
+        left:  "assets/collage1.jpg",
+        right: "assets/sibe_bar_flower2.jpg",
       },
       content: {
         type: "writings",
         items: [
           {
-            title: "Near-Miss Collisions with Starlink Satellites Are a Wake-Up Call for the Space Sector",
-            date:  "The Wire, March 2025",
-            text:  `With more satellite constellations soon to be in orbit, there needs to be a global dialogue about the unintended consequences of orbit crowding, 
-            light pollution and space debris.`,
+            title:   "Near-Miss Collisions with Starlink Satellites Are a Wake-Up Call for the Space Sector",
+            date:    "March 2025",
             venue:   "The Wire",
-            linkLabel: "Read more →",
-            url:  "https://thewire.in/space/near-miss-collisions-with-starlink-satellites-are-a-wake-up-call-for-the-space-sector",
+            // text supports Markdown — **bold**, *italic*, - lists, links, etc.
+            text:    `With more satellite constellations soon to be in orbit, there needs to be a
+**global dialogue** about the unintended consequences of orbit crowding,
+light pollution and space debris.`,
+            url:     "https://thewire.in/space/near-miss-collisions-with-starlink-satellites-are-a-wake-up-call-for-the-space-sector",
           },
           {
-            title: "Title of Blog Post or Article 2",
-            date:  "December 2023",
-            text:  `Another piece of writing that showcases your communication skills
-                   and ability to engage with different audiences beyond academic papers.`,
-            linkLabel: "Read more →",
-            url:  "#",
+            title:   "Title of Blog Post or Article 2",
+            date:    "December 2023",
+            venue:   "Publication Name",
+            text:    `Another piece of writing that showcases your communication skills
+and ability to engage with different audiences beyond academic papers.`,
+            url:     "#",
           },
           {
-            title: "Title of Blog Post or Article 3",
-            date:  "October 2023",
-            text:  `Reflections on your research journey, explanations of complex topics,
-                   or thoughts on current developments in your field.`,
-            linkLabel: "Read more →",
-            url:  "#",
+            title:   "Title of Blog Post or Article 3",
+            date:    "October 2023",
+            venue:   null,
+            text:    `Reflections on your research journey, explanations of complex topics,
+or thoughts on current developments in your field.`,
+            url:     null,
           },
         ],
       },
     },
 
-
-    // ── OUTREACH ────────────────────────────────────────────
+    // ── TALKS / OUTREACH ─────────────────────────────────────
     {
       id:    "outreach",
       label: "Talks",
       sidebar: {
-        left:  "assets/sput.jpg",               // e.g. "assets/milkyway.jpg"
-        right: "assets/sput2.jpg",//null,
+        left:  "assets/sput.jpg",
+        right: "assets/sput2.jpg",
       },
       content: {
         type: "outreach",
         items: [
           {
-            title:  "Public Lecture: Understanding the Universe",
-            image:  "assets/outreach1.jpg",
-            text:   `A talk for general audiences exploring the fundamental questions
-                    in modern physics and how we're working to answer them through
-                    cutting-edge research and observations.`,
+            title:     "Public Lecture: Understanding the Universe",
+            image:     "assets/outreach1.jpg",
+            // text supports Markdown
+            text:      `A talk for general audiences exploring the fundamental questions
+in modern physics and how we're working to answer them through
+cutting-edge research and observations.`,
             linkLabel: "Learn more →",
-            url:    "#",
+            url:       "#",
           },
           {
-            title:  "Science Festival Workshop",
-            image:  "assets/outreach2.jpg",
-            text:   `Interactive workshop for high school students introducing the basics
-                    of galaxy dynamics. Participants engaged in hands-on activities and
-                    discussions about careers in science.`,
+            title:     "Science Festival Workshop",
+            image:     "assets/outreach2.jpg",
+            text:      `Interactive workshop for high school students introducing the basics
+of galaxy dynamics. Participants engaged in hands-on activities and
+discussions about careers in science.`,
             linkLabel: "Learn more →",
-            url:    "#",
+            url:       "#",
           },
           {
-            title:  "Podcast Interview: The Science Show",
-            image:  "assets/outreach3.jpg",
-            text:   `Discussion about my research and its implications for our understanding
-                    of galaxy evolution. We explored how fundamental research connects to
-                    everyday life and future technologies.`,
+            title:     "Podcast Interview: The Science Show",
+            image:     "assets/outreach3.jpg",
+            text:      `Discussion about my research and its implications for our understanding
+of galaxy evolution. We explored how fundamental research connects to
+everyday life and future technologies.`,
             linkLabel: "Listen here →",
-            url:    "#",
+            url:       "#",
           },
           {
-            title:  "School Visit Program",
-            image:  "assets/outreach4.jpg",
-            text:   `Regular visits to local schools to inspire young students about
-                    science, mathematics, and research. Includes demonstrations, Q&A
-                    sessions, and mentorship opportunities.`,
+            title:     "School Visit Program",
+            image:     "assets/outreach4.jpg",
+            text:      `Regular visits to local schools to inspire young students about
+science, mathematics, and research. Includes demonstrations, Q&A
+sessions, and mentorship opportunities.`,
             linkLabel: "Learn more →",
-            url:    "#",
+            url:       "#",
           },
         ],
       },
     },
 
-    
     // ── CV ──────────────────────────────────────────────────
     {
       id:    "cv",
       label: "CV",
       sidebar: {
-        left:  "assets/sky2.jpg",               // e.g. "assets/milkyway.jpg"
-        right: "assets/astro2.jpg",//null,
+        left:  "assets/sky2.jpg",
+        right: "assets/astro2.jpg",
       },
       content: {
         type:    "cv",
         pdfPath: "assets/cv.pdf",
       },
     },
-
-
 
     // ── CONTACT ─────────────────────────────────────────────
     {
@@ -251,7 +262,6 @@ const SITE = {
       sidebar: {
         left:  "assets/Haeckel_jelly.jpg",
         right: "assets/jelly2.jpg",
-        
       },
       content: {
         type:  "contact",
