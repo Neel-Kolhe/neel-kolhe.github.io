@@ -42,32 +42,32 @@ const SITE = {
 
     // ── HOME ────────────────────────────────────────────────
     {
-      id:    "home",
+      id: "home",
       label: "Home",
       sidebar: {
-        left:  "assets/sibe_bar_flower.jpg",               // e.g. "assets/milkyway.jpg"
-        right: "assets/sky4.jpg",//null,
+        left: "assets/sibe_bar_flower.jpg",
+        right: "assets/sky4.jpg"
       },
       content: {
         type: "home",
-        bio: [
-          `I am a PhD scholar at the Paris Observatory. My current work focuses on
-          the dynamics of Dwarf Irregular galaxies using state-of-the-art 21 cm
-          Radio observations and N-body hydrodynamical simulations. I study internal gas
-          structures inside isolated irregulars and how they interact with the intergalactic medium (IGM)
-          they are embedded in.` 
-          ,
-          `Dwarf Irregulars have long been known to have asymmetric kinematics, gas distributions offset from stellar structures,
-          distinct dichotomies in their population of some being extremely gas rich and others not at all. My thesis work
-          aims to push towards a understanding the origins of these properties. Dwarf irregulars are the most common galaxy type in the universe, and 
-          their progenitors are considered to be the building blocks in the heirarchical merger growth and evolution of larger galaxies
-          and yet their dynamics is poorly understood. Isolated irregulars are often used test various ideas, spanning many subfields in studying dark matter.
-          Therefore a rigourous understanding of their dynamics is crucial`,
-        ],
-      },
-
-
-      
+        // Subsections for a cleaner layout
+        sections: [
+          {
+            heading: "Research",
+            text: [
+              `I am a PhD scholar at the Paris Observatory. My current work focuses on the dynamics of Dwarf Irregular galaxies using state-of-the-art 21 cm Radio observations and N-body hydrodynamical simulations. I study internal gas structures inside isolated irregulars and how they interact with the intergalactic medium (IGM) they are embedded in.`,
+              `Dwarf Irregulars are the most common galaxy type in the universe. My thesis aims to understand the origins of their asymmetric kinematics and gas distributions, providing crucial insights into the hierarchical growth of larger galaxies and the nature of dark matter.`
+            ]
+          },
+          {
+            heading: "Other Interests",
+            text: [
+              `Beyond the observatory, I am deeply interested in space policy and the sustainable use of orbit. I occasionally write about the impact of satellite constellations on astronomy and the growing challenge of space debris.`,
+              `When I'm not looking at galaxies, you might find me wandering the streets of Paris or back home in Mumbai.`
+            ]
+          }
+        ]
+      }
     },
 
     // ── PUBLICATIONS ────────────────────────────────────────
