@@ -1,10 +1,25 @@
 /**
- * render.js — reads SITE from data.js and builds the page
+ * render.js — reads SITE from data.js and builds the page.
  * You should never need to edit this file.
+ *
+ * Text fields in data.js support Markdown:
+ *   **bold**  *italic*  ## Heading  ### Sub-heading
+ *   - bullet  1. numbered  [link](url)  ---  > blockquote
  */
 
 (function () {
   "use strict";
+
+  // ── Markdown helper ───────────────────────────────────────
+  // Renders a markdown string into a div.
+  // Falls back to plain text if marked.js isn't loaded.
+  function md(text) {
+    if (!text) return el("span", {});
+    const html = (typeof marked !== "undefined")
+      ? marked.parse(text.trim())
+      : text.trim().replace(/\n/g, "<br>");
+    return el("div", { class: "md-body", html });
+  }
 
   // ── helpers ───────────────────────────────────────────────
   function el(tag, attrs = {}, ...children) {
@@ -21,15 +36,12 @@
     return e;
   }
 
-  function h2(text) {
-    return el("h2", {}, text);
-  }
+  function h2(text) { return el("h2", {}, text); }
 
   function linkButton(label, url) {
     return el("a", { class: "btn", href: url, target: "_blank" }, label);
   }
 
-  // ── profile-links row ─────────────────────────────────────
   function profileLinksRow(links) {
     return el("div", { class: "profile-links" },
       ...links.map(l => linkButton(l.label, l.url))
@@ -55,9 +67,13 @@
       const wrap = el("div", { class: "profile-section" });
       const textCol = el("div", { class: "profile-content" });
       textCol.appendChild(el("h1", {}, SITE.name));
-      const desc = el("div", { class: "description" });
-      content.bio.forEach(p => desc.appendChild(el("p", {}, p.trim())));
-      textCol.appendChild(desc);
+
+      // bio can be a markdown string OR a legacy array of strings
+      const bioText = Array.isArray(content.bio)
+        ? content.bio.join("\n\n")
+        : content.bio;
+      textCol.appendChild(md(bioText));
+
       textCol.appendChild(profileLinksRow(SITE.profileLinks));
       wrap.appendChild(textCol);
 
@@ -91,13 +107,12 @@
     cv(content) {
       const wrap = el("div", { class: "cv-embed" });
       wrap.appendChild(el("iframe", { src: content.pdfPath, title: "Curriculum Vitae" }));
-      const dl = el("a", {
+      wrap.appendChild(el("br", {}));
+      wrap.appendChild(el("a", {
         class: "btn download-cv",
         href: content.pdfPath,
         download: "",
-      }, "Download CV (PDF)");
-      wrap.appendChild(el("br", {}));
-      wrap.appendChild(dl);
+      }, "Download CV (PDF)"));
       return wrap;
     },
 
@@ -107,14 +122,12 @@
         const card = el("div", { class: "outreach-item" });
         if (item.image) {
           card.appendChild(el("img", {
-            src: item.image,
-            alt: item.title,
-            class: "outreach-thumbnail",
+            src: item.image, alt: item.title, class: "outreach-thumbnail",
           }));
         }
         const body = el("div", { class: "outreach-content" });
         body.appendChild(el("h3", {}, item.title));
-        body.appendChild(el("p", {}, item.text.trim()));
+        body.appendChild(md(item.text));                // ← markdown support
         if (item.url && item.url !== "#") {
           body.appendChild(el("a", { href: item.url, target: "_blank" }, item.linkLabel));
         } else if (item.url) {
@@ -130,12 +143,22 @@
       const list = el("div", { class: "writings-list" });
       content.items.forEach(item => {
         const card = el("div", { class: "writing-item" });
-        card.appendChild(el("h3", {}, item.title));
-        card.appendChild(el("div", { class: "writing-date" }, `Published: ${item.date}`));
-        card.appendChild(el("p", {}, item.text.trim()));
-        if (item.url) {
-          card.appendChild(el("a", { href: item.url }, item.linkLabel));
-        }
+
+        // Title — clickable if url is set
+        const titleEl = item.url
+          ? el("a", { class: "writing-title-link", href: item.url, target: "_blank" }, item.title)
+          : el("span", {}, item.title);
+        card.appendChild(el("h3", {}, titleEl));
+
+        // Meta: date · venue/journal
+        const venue = item.venue || item.journal || null;
+        const meta = el("div", { class: "writing-meta" });
+        if (item.date)   meta.appendChild(el("span", { class: "writing-date" }, item.date));
+        if (item.date && venue) meta.appendChild(el("span", { class: "writing-sep" }, " · "));
+        if (venue)       meta.appendChild(el("span", { class: "writing-journal" }, venue));
+        card.appendChild(meta);
+
+        card.appendChild(md(item.text));                // ← markdown support
         list.appendChild(card);
       });
       return list;
@@ -144,6 +167,7 @@
     contact(content) {
       const frag = document.createDocumentFragment();
       const info = el("div", { class: "contact-info" });
+
       info.appendChild(el("p", {},
         el("strong", {}, "Email: "),
         el("a", { href: `mailto:${content.email}` }, content.email),
@@ -163,19 +187,16 @@
         ));
       }
       frag.appendChild(info);
-
       frag.appendChild(h2("Find Me Online"));
       frag.appendChild(profileLinksRow(SITE.socialLinks));
       return frag;
     },
   };
 
-  // ── sidebar image ─────────────────────────────────────────
+  // ── sidebar ───────────────────────────────────────────────
   function makeSidebar(src) {
     const col = el("div", { class: "sidebar-col" });
-    if (src) {
-      col.appendChild(el("img", { src, alt: "", class: "sidebar-img" }));
-    }
+    if (src) col.appendChild(el("img", { src, alt: "", class: "sidebar-img" }));
     return col;
   }
 
@@ -198,25 +219,20 @@
   // ── build pages ───────────────────────────────────────────
   function buildPages() {
     const container = document.getElementById("pages-container");
-
     SITE.pages.forEach((page, i) => {
-      // Outer row: left sidebar | content | right sidebar
       const row = el("div", { class: "page-row", id: `page-${page.id}` });
       if (i === 0) row.classList.add("active");
 
       const sb = page.sidebar || {};
       row.appendChild(makeSidebar(sb.left));
 
-      // Main content column
       const main = el("div", { class: "page-main" });
-      if (page.content.type !== "home") {
-        main.appendChild(h2(page.label));
-      }
+      if (page.content.type !== "home") main.appendChild(h2(page.label));
+
       const renderer = renderers[page.content.type];
       if (renderer) {
         const built = renderer(page.content);
-        if (built instanceof DocumentFragment) main.appendChild(built);
-        else main.appendChild(built);
+        main.appendChild(built);
       }
 
       row.appendChild(main);
@@ -230,38 +246,27 @@
     document.querySelectorAll(".page-row").forEach(r => r.classList.remove("active"));
     const target = document.getElementById(`page-${id}`);
     if (target) target.classList.add("active");
-
-    // update nav active state
     document.querySelectorAll("nav a").forEach(a => {
       a.classList.toggle("nav-active", a.getAttribute("href") === `#${id}`);
     });
   }
 
-  // ── expose globally for potential external use ────────────
   window.showPage = showPage;
 
   // ── init ──────────────────────────────────────────────────
   document.addEventListener("DOMContentLoaded", () => {
-    // Header image
     const hdr = document.getElementById("header-img");
     if (hdr) hdr.src = SITE.headerImage;
-
-    // Footer
     const ftr = document.getElementById("footer-text");
     if (ftr) ftr.textContent = SITE.footer;
 
     buildNav();
     buildPages();
 
-    // Handle URL hash
     const hash = window.location.hash.substring(1);
-    if (hash && SITE.pages.some(p => p.id === hash)) {
-      showPage(hash);
-    } else {
-      showPage(SITE.pages[0].id);
-    }
+    if (hash && SITE.pages.some(p => p.id === hash)) showPage(hash);
+    else showPage(SITE.pages[0].id);
 
-    // Browser back/forward
     window.addEventListener("popstate", () => {
       const h = window.location.hash.substring(1);
       if (h) showPage(h);
