@@ -63,6 +63,8 @@ const SITE = {
           their progenitors are considered to be the building blocks in the heirarchical merger growth and evolution of larger galaxies
           and yet their dynamics is poorly understood. Isolated irregulars are often used test various ideas, spanning many subfields in studying dark matter.
           Therefore a rigourous understanding of their dynamics is crucial`,
+
+          `### Other Interests`
         ],
       },
     },
