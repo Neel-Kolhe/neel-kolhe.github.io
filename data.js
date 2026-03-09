@@ -65,6 +65,7 @@ const SITE = {
           Therefore a rigourous understanding of their dynamics is crucial`,
 
           `### Other Interests`
+          `**Other Interests**`
         ],
       },
     },
