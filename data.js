@@ -66,11 +66,7 @@ const SITE = {
         ],
       },
       {
-          title: "Research",
-          body: [
-            "My current research focuses on [Topic A] and [Topic B].",
-            "I am particularly interested in how these systems interact in real-world environments."
-          ]
+    
         },
 
 
