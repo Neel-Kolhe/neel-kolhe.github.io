@@ -64,6 +64,12 @@ dynamics of **Dwarf Irregular galaxies** using state-of-the-art 21 cm Radio obse
 and N-body hydrodynamical simulations. I study internal gas structures inside isolated
 irregulars and how they interact with the intergalactic medium (IGM) they are embedded in.
 
+
+
+---
+
+### Research Themes
+
 Dwarf Irregulars have long been known to have asymmetric kinematics, gas distributions
 offset from stellar structures, distinct dichotomies in their population — some being
 extremely gas rich and others not at all. My thesis work aims to push towards understanding
@@ -74,15 +80,6 @@ are considered to be the building blocks in the hierarchical merger growth and e
 larger galaxies, and yet their dynamics is poorly understood. Isolated irregulars are often
 used to test various ideas spanning many subfields, including dark matter studies. Therefore
 a rigorous understanding of their dynamics is crucial.
-
----
-
-### Research Themes
-
-- **HI 21cm kinematics** of isolated dwarf irregulars
-- **N-body hydrodynamical simulations** of dwarf galaxy evolution
-- Interaction of dwarfs with the **intergalactic medium**
-- Dark matter distribution in low-surface-brightness galaxies
         `,
       },
     },
