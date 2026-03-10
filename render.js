@@ -104,6 +104,13 @@
       return frag;
     },
 
+    // ── Generic markdown page ─────────────────────────────
+    // Use type: "markdown" in data.js for any freeform page.
+    // content.body is a markdown string.
+    markdown(content) {
+      return md(content.body);
+    },
+
     cv(content) {
       const wrap = el("div", { class: "cv-embed" });
       wrap.appendChild(el("iframe", { src: content.pdfPath, title: "Curriculum Vitae" }));
