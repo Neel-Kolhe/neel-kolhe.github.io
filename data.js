@@ -189,7 +189,7 @@ or thoughts on current developments in your field.`,
     // ── TALKS / OUTREACH ─────────────────────────────────────
     {
       id:    "outreach",
-      label: "Talks",
+      label: "Public Talks & appearances",
       sidebar: {
         left:  "assets/sput.jpg",
         right: "assets/sput2.jpg",
