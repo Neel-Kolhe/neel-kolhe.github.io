@@ -172,7 +172,7 @@ light pollution and space debris. There is very little discussion aboout how thi
             venue:   "The Wire",
             text:    `With a steady centralising drift towards all postgrad admissions in India through single channels of entry, institutions loose
             academic autonomy. This article discusses the concerns surrounding the issue, and offers alternative structures to PhD admissions, all with their own flaws, but alternatives nevertheless.`,
-            url:     "#",
+            url:     "https://thewire.in/education/what-are-the-alternatives-to-mcqs-for-phd-admissions",
           },
           {
             title:   "Title of Blog Post or Article 3",
