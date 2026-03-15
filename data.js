@@ -21,7 +21,7 @@ const SITE = {
 
   // ── META ──────────────────────────────────────────────────
   name:         "Neel Kolhe",
-  footer:       "© 2025 Neel Kolhe. All rights reserved.",
+  footer:       "🄯 2025 Neel Kolhe. Images used on the website are in the public domain, attempts at attributions have been made when under creative commons, please get in touch if I missed something.",
   headerImage:  "assets/header.png",
   profilePhoto: "assets/profile.jpg",
 
