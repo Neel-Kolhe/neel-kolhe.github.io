@@ -162,16 +162,16 @@ a rigorous understanding of their dynamics is crucial.
             venue:   "The Wire",
             // text supports Markdown — **bold**, *italic*, - lists, links, etc.
             text:    `With more satellite constellations soon to be in orbit, there needs to be a
-**global dialogue** about the unintended consequences of orbit crowding,
-light pollution and space debris.`,
+global dialogue about the unintended consequences of orbit crowding,
+light pollution and space debris. There is very little discussion aboout how this affects current and future astronomical observatories in India.`,
             url:     "https://thewire.in/space/near-miss-collisions-with-starlink-satellites-are-a-wake-up-call-for-the-space-sector",
           },
           {
-            title:   "Title of Blog Post or Article 2",
-            date:    "December 2023",
-            venue:   "Publication Name",
-            text:    `Another piece of writing that showcases your communication skills
-and ability to engage with different audiences beyond academic papers.`,
+            title:   "What Are the Alternatives to MCQs for PhD Admissions?",
+            date:    "April 2024",
+            venue:   "The Wire",
+            text:    `With a steady centralising drift towards all postgrad admissions in India through single channels of entry, institutions loose
+            academic autonomy. This article discusses the concerns surrounding the issue, and offers alternative structures to PhD admissions, all with their own flaws, but alternatives nevertheless.`,
             url:     "#",
           },
           {
