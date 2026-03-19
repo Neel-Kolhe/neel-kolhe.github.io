@@ -112,17 +112,26 @@ of the IGM itself in an independent manner.
 
         selected: [
           {
-            title:   "Title of Your Most Important Publication",
-            authors: "Author 1, Author 2, Neel Kolhe, Author 4",
-            venue:   "Top Journal Name, Vol. 1(1), pp. 1–20, 2024",
-            url:     "https://arxiv.org",
+            title:   "WLM: Dynamics of an isolated dwarf irregular galaxy under ram pressure in the Local Group",
+            authors: "Neel Kolhe, Francois Hammer, Yanbin Yang, Brenda Namumba, Laurent Chemin, Philippe Amram, Roger Ianjamasimanana, Claude Carignan",
+            venue:   "Astronomy & Astrophysics, 707, A309 (2026)",
+            url:     "https://doi.org/10.1051/0004-6361/202557380",
           },
           {
-            title:   "Title of Another Key Publication",
-            authors: "Neel Kolhe, Collaborator 1, Collaborator 2",
-            venue:   "Major Conference Proceedings, 2023",
+            title:   "The second data release from the European Pulsar Timing Array III. Search for gravitational wave signals",
+            authors: "European Pulsar Timing Array Collaboration, Indian Pulsar Timing Array Collaboration",
+            venue:   "Astronomy & Astrophysics, 678, A50 (2023)",
             url:     null,
           },
+
+          {
+            title:   "A novel cantenna based demonstration of frustrated total internal reflection as an analog for quantum tunnelling",
+            authors: "Neel Kolhe, Sreyashi Shetty",
+            venue:   "IOP Science Phys. Educ. 58 025011 (2023)",
+            url:     null,
+          },
+
+          
         ],
 
         all: [
