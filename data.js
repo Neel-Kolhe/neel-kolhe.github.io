@@ -62,10 +62,17 @@ const SITE = {
 I am a PhD scholar at the **Paris Observatory**. My current work focuses on the
 dynamics of **Dwarf Irregular galaxies** using state-of-the-art 21 cm Radio observations
 and N-body hydrodynamical simulations. I study internal gas structures inside isolated
-irregulars and how they interact with the intergalactic medium (IGM) they are embedded in.
+irregulars and how they interact with the intergalactic medium (IGM) they are embedded in. 
 
+In the past I have contributed to observational and theoretical studies in the field of detecting
+low frequency gravitational waves using pulsar timing. Our work included studies which showed the
+first evidence towards the detection of a gravitational wave background. 
 
+Whenever I get the time, I also work on developing pedagogocal tools and physics experiments which make teaching the subject more fun.
 
+I deeply believe in taking scientists' responsibility of taking science as is out of observatories, labs and abstractions to the people 
+in the communities we serve and who fund us, not just for the sake of communication but as a means of social transformation and active dialogue
+between socieites and science, as science itself is a deeply human and social endeavour.    
 ---
 
 ### Research Themes
