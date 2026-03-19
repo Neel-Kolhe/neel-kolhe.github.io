@@ -91,6 +91,10 @@ are considered to be the building blocks in the hierarchical merger growth and e
 larger galaxies, and yet their dynamics is poorly understood. Isolated irregulars are often
 used to test various ideas spanning many subfields, including dark matter studies. Therefore
 a rigorous understanding of their dynamics is crucial.
+
+There is emerging evidence that even a low density intergalactic medium can perturb the outskirts of these galaxies,
+we are attempting to study the complexities of this interaction, and use these interactions as a probe into the properties
+of the IGM itself in an independent manner.
         `,
       },
     },
