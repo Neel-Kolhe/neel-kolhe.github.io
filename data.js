@@ -73,10 +73,14 @@ Whenever I get the time, I also work on developing pedagogocal tools and physics
 I deeply believe in taking scientists' responsibility of taking science as is out of observatories, labs and abstractions to the people 
 in the communities we serve and who fund us, not just for the sake of communication but as a means of social transformation and active dialogue
 between socieites and science, as science itself is a deeply human and social endeavour.    
+
+
+
 ---
 
 ### Research Themes
 
+#### Gas dynamics in galaxies and it's relationship to gas on cosmological scales
 Dwarf Irregulars have long been known to have asymmetric kinematics, gas distributions
 offset from stellar structures, distinct dichotomies in their population — some being
 extremely gas rich and others not at all. My thesis work aims to push towards understanding
