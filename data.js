@@ -78,9 +78,38 @@ between socieites and science, as science itself is a deeply human and social en
 
 ---
 
-### Research Themes
+
+
+        `,
+      },
+    },
+
+
+
+    {
+  id:    "research",              // change this if you duplicate the page
+  label: "Research",             // this is what shows in the menu
+
+  // Optional decorative side images
+  sidebar: {
+        left:  "assets/sibe_bar_flower.jpg",
+        right: "assets/sky4.jpg",
+  },
+
+  content: {
+    type: "page",   // generic rich-text page
+
+    // Main page content supports FULL MARKDOWN
+    body: `
+
+## Research Overview
+
+*This page contains a overview of my science work, for a full list of research publications, please check the next page*
+
+##  Dynamics of Dwarf Irregular Galaxies
 
 #### Gas dynamics in galaxies and it's relationship to gas on cosmological scales
+
 Dwarf Irregulars have long been known to have asymmetric kinematics, gas distributions
 offset from stellar structures, distinct dichotomies in their population — some being
 extremely gas rich and others not at all. My thesis work aims to push towards understanding
@@ -95,9 +124,49 @@ a rigorous understanding of their dynamics is crucial.
 There is emerging evidence that even a low density intergalactic medium can perturb the outskirts of these galaxies,
 we are attempting to study the complexities of this interaction, and use these interactions as a probe into the properties
 of the IGM itself in an independent manner.
-        `,
-      },
-    },
+
+### Add an image below
+
+![HI gas map of a dwarf irregular](assets/research_image1.jpg)
+
+*Caption describing what the image shows.*
+
+---
+
+//## Theme 2 — Interaction with the Intergalactic Medium (IGM)
+
+//Explain the IGM interaction story here.
+
+//![Simulation snapshot](assets/research_image2.jpg)
+
+---
+
+//## Theme 3 — Past Work: Pulsar Timing & Gravitational Waves
+
+//Brief description of earlier work and how it connects to present research.
+
+---
+
+//## Methods I Use
+
+//- 21 cm radio observations
+//- Kinematic modelling
+//- N-body + hydrodynamical simulations
+//- Data analysis pipelines
+
+---
+
+//## Why Dwarf Irregulars Matter
+
+//This is a good place for a slightly more conceptual / big-picture explanation.
+
+`,
+  },
+},
+
+
+
+    
 
     // ── PUBLICATIONS ────────────────────────────────────────
     {
