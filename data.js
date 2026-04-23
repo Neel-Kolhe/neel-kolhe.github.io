@@ -194,10 +194,10 @@ of the IGM itself in an independent manner.
           },
 
           {
-            title:   "A novel cantenna based demonstration of frustrated total internal reflection as an analog for quantum tunnelling",
-            authors: "Neel Kolhe, Sreyashi Shetty",
-            venue:   "IOP Science Phys. Educ. 58 025011 (2023)",
-            url:     null,
+              title:   "A novel cantenna based demonstration of frustrated total internal reflection as an analog for quantum tunnelling",
+              authors: "Kolhe, N. and Shetty, S.",
+              venue:   "Physics Education, 2023",
+              url:     "https://ui.adsabs.harvard.edu/abs/2023PhyEd..58b5011K",
           },
 
           
@@ -305,8 +305,8 @@ of the IGM itself in an independent manner.
         items: [
           {
             title:   "Astrobites author page",
-            date:    "March 2025",
-            venue:   "The Wire",
+            date:    "January 2026 onwards",
+            venue:   "Astrobites",
             // text supports Markdown — **bold**, *italic*, - lists, links, etc.
             text:    `From January 2026 I became a part of the regular cohort of writers for astrobites, where I will be submitting a paper summary or commentary on issues pertaining to astronomy once every ~4-6 weeks.`,
             url:     "https://astrobites.org/author/nkolhe/",
