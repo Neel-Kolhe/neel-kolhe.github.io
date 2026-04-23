@@ -55,7 +55,7 @@ const SITE = {
         right: "assets/sky4.jpg",
       },
       content: {
-        type: "home",
+        type: "markdown",
 
         // bio supports full Markdown — use ## for headings, **bold**, *italic*, - lists, etc.
         bio: `
