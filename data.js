@@ -59,7 +59,7 @@ const SITE = {
 
         // bio supports full Markdown — use ## for headings, **bold**, *italic*, - lists, etc.
         bio: `
-I am a PhD scholar at the **Paris Observatory**. My current work focuses on the
+I am a PhD scholar at the **Paris Observatory**. (Actively looking for post doc opportunities!) My current work focuses on the
 dynamics of **Dwarf Irregular galaxies** using state-of-the-art 21 cm Radio observations
 and N-body hydrodynamical simulations. I study internal gas structures inside isolated
 irregulars and how they interact with the intergalactic medium (IGM) they are embedded in. 
