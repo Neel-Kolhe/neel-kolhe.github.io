@@ -97,7 +97,7 @@ between socieites and science, as science itself is a deeply human and social en
   },
 
   content: {
-    type: "home",   // generic rich-text page
+    type: "markdown",   // generic rich-text page
 
     // Main page content supports FULL MARKDOWN
     body: `
