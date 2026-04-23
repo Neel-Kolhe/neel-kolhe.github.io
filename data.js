@@ -346,41 +346,35 @@ light pollution and space debris. There is very little discussion aboout how thi
         type: "outreach",
         items: [
           {
-            title:     "Public Lecture: Understanding the Universe",
+            title:     "The Life and Times of Carl Sagan - Panelist",
             image:     "assets/outreach1.jpg",
             // text supports Markdown
-            text:      `A talk for general audiences exploring the fundamental questions
-in modern physics and how we're working to answer them through
-cutting-edge research and observations.`,
-            linkLabel: "Learn more →",
-            url:       "#",
+            text:      `A Discussion about Carl Sagan, his science, approach to humanism, the voyager probes and much more.`,
+            linkLabel: "Watch here",
+            url:       "https://drive.google.com/file/d/1vo0xl53EBe0jTJwUXtA7UvkEbpyQfARg/view?usp=sharing",
           },
           {
-            title:     "Science Festival Workshop",
+            title:     "Open Science and Scihub in developing countries - Panelist",
             image:     "assets/outreach2.jpg",
             text:      `Interactive workshop for high school students introducing the basics
 of galaxy dynamics. Participants engaged in hands-on activities and
 discussions about careers in science.`,
-            linkLabel: "Learn more →",
-            url:       "#",
-          },
-          {
-            title:     "Podcast Interview: The Science Show",
-            image:     "assets/outreach3.jpg",
-            text:      `Discussion about my research and its implications for our understanding
-of galaxy evolution. We explored how fundamental research connects to
-everyday life and future technologies.`,
             linkLabel: "Listen here →",
-            url:       "#",
+            url:       "https://www.youtube.com/watch?v=wtFCx1-sgoc&t=616s",
           },
           {
-            title:     "School Visit Program",
+            title:     "Detecting Gravitation Waves using Pulsars - Podcast",
+            image:     "assets/outreach3.jpg",
+            text:      `A discussion about the science and the art of pulsar timing and how pulsars are used to detect gravitational waves from supermassive binary black holes. `,
+            linkLabel: "Listen here →",
+            url:       "https://www.youtube.com/watch?v=5GHCe7SZSHk&t=1732s",
+          },
+          {
+            title:     "The Gaseous weave: a warm, glowing tale of invisible gas - Astronomy on Tap - Paris",
             image:     "assets/outreach4.jpg",
-            text:      `Regular visits to local schools to inspire young students about
-science, mathematics, and research. Includes demonstrations, Q&A
-sessions, and mentorship opportunities.`,
-            linkLabel: "Learn more →",
-            url:       "#",
+            text:      ``,
+            linkLabel: "Watch here. (poor audio, sorry!)",
+            url:       "https://www.youtube.com/watch?v=CwXrs7lOpT4&t=1825s",
           },
         ],
       },
