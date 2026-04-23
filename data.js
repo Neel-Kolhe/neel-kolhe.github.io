@@ -106,7 +106,7 @@ between socieites and science, as science itself is a deeply human and social en
 
 *This page contains a overview of my science work, for a full list of research publications, please check the next page*
 
-##  Dynamics of Dwarf Irregular Galaxies
+##  Dynamics of Dwarf Irregular Galaxies (Primary Current work)
 
 #### Gas dynamics in galaxies and it's relationship to gas on cosmological scales
 
@@ -125,40 +125,12 @@ There is emerging evidence that even a low density intergalactic medium can pert
 we are attempting to study the complexities of this interaction, and use these interactions as a probe into the properties
 of the IGM itself in an independent manner.
 
-### Add an image below
+## Pulsar Timing Arrays and Gravitational Waves (Past work)
 
 
-*Caption describing what the image shows.*
-
----
-
-//## Theme 2 — Interaction with the Intergalactic Medium (IGM)
-
-//Explain the IGM interaction story here.
-
-
-
----
-
-//## Theme 3 — Past Work: Pulsar Timing & Gravitational Waves
-
-//Brief description of earlier work and how it connects to present research.
-
----
-
-//## Methods I Use
-
-//- 21 cm radio observations
-//- Kinematic modelling
-//- N-body + hydrodynamical simulations
-//- Data analysis pipelines
-
----
-
-//## Why Dwarf Irregulars Matter
-
-//This is a good place for a slightly more conceptual / big-picture explanation.
-
+## Other Science! (Past work)
+#### "Cantennae" and 
+#### VSRP
 `,
   },
 },
