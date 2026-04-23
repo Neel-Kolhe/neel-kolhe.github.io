@@ -127,7 +127,6 @@ of the IGM itself in an independent manner.
 
 ### Add an image below
 
-![HI gas map of a dwarf irregular](assets/research_image1.jpg)
 
 *Caption describing what the image shows.*
 
@@ -137,7 +136,7 @@ of the IGM itself in an independent manner.
 
 //Explain the IGM interaction story here.
 
-//![Simulation snapshot](assets/research_image2.jpg)
+
 
 ---
 
