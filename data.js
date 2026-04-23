@@ -396,7 +396,7 @@ sessions, and mentorship opportunities.`,
       },
       content: {
         type:    "cv",
-        pdfPath: "assets/cv.pdf",
+        pdfPath: "assets/CV_Neel_2026_PD.pdf",
       },
     },
 
