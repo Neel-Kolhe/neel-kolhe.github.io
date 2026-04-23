@@ -28,9 +28,9 @@ const SITE = {
   // ── PROFILE LINKS (shown on Home & Publications) ──────────
   profileLinks: [
     { label: "Google Scholar", url: "https://scholar.google.com/citations?user=uNi-v5sAAAAJ&hl=en" },
-    { label: "ORCID",          url: "https://orcid.org" },
-    { label: "INSPIRE-HEP",    url: "https://inspirehep.net" },
-    { label: "arXiv",          url: "https://arxiv.org" },
+    { label: "ORCID",          url: "https://orcid.org/0000-0003-3528-9863" },
+    { label: "INSPIRE-HEP",    url: "https://inspirehep.net/authors/1881755" },
+    //{ label: "arXiv",          url: "https://arxiv.org" },
   ],
 
   // ── SOCIAL LINKS (shown on Contact) ───────────────────────
