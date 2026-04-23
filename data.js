@@ -250,6 +250,15 @@ of the IGM itself in an independent manner.
         type: "writings",
         items: [
           {
+            title:   "Astrobites author page",
+            date:    "March 2025",
+            venue:   "The Wire",
+            // text supports Markdown — **bold**, *italic*, - lists, links, etc.
+            text:    `From January 2026 I became a part of the regular cohort of writers for astrobites, where I will be submitting a paper summary or commentary on issues pertaining to astronomy once every ~4-6 weeks.`,
+            url:     "https://astrobites.org/author/nkolhe/",
+          },
+          
+          {
             title:   "Near-Miss Collisions with Starlink Satellites Are a Wake-Up Call for the Space Sector",
             date:    "March 2025",
             venue:   "The Wire",
@@ -267,14 +276,7 @@ light pollution and space debris. There is very little discussion aboout how thi
             academic autonomy. This article discusses the concerns surrounding the issue, and offers alternative structures to PhD admissions, all with their own flaws, but alternatives nevertheless.`,
             url:     "https://thewire.in/education/what-are-the-alternatives-to-mcqs-for-phd-admissions",
           },
-          {
-            title:   "Title of Blog Post or Article 3",
-            date:    "October 2023",
-            venue:   null,
-            text:    `Reflections on your research journey, explanations of complex topics,
-or thoughts on current developments in your field.`,
-            url:     null,
-          },
+
         ],
       },
     },
