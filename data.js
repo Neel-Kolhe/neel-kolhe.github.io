@@ -1,21 +1,3 @@
-/**
- * ============================================================
- *  WEBSITE DATA — Edit this file to update your website
- * ============================================================
- *
- *  TEXT FORMATTING — All text fields support Markdown:
- *
- *    **bold**          *italic*          ~~strikethrough~~
- *    ## Heading        ### Sub-heading   #### Smaller heading
- *    - bullet item     1. numbered item
- *    [link text](url)
- *    ---               (horizontal rule)
- *    > blockquote
- *
- *  SIDEBARS: Set sidebar.left / sidebar.right to an asset path,
- *  or null to leave that side empty.
- * ============================================================
- */
 
 const SITE = {
 
@@ -42,7 +24,7 @@ const SITE = {
   ],
 
   // ══════════════════════════════════════════════════════════
-  //  PAGES — add, remove, or reorder sections here
+  //  PAGES 
   // ══════════════════════════════════════════════════════════
   pages: [
 
@@ -57,7 +39,7 @@ const SITE = {
       content: {
         type: "home",
 
-        // bio supports full Markdown — use ## for headings, **bold**, *italic*, - lists, etc.
+        // bio
         bio: `
 I am a PhD scholar at the **Paris Observatory**. (Actively looking for post doc opportunities!) My current work focuses on the
 dynamics of **Dwarf Irregular galaxies** using state-of-the-art 21 cm Radio observations
@@ -90,16 +72,16 @@ between socieites and science, as science itself is a deeply human and social en
   id:    "research",              // change this if you duplicate the page
   label: "Research",             // this is what shows in the menu
 
-  // Optional decorative side images
+  //  decorative side images
   sidebar: {
         left:  "assets/sibe_bar_flower.jpg",
         right: "assets/sky4.jpg",
   },
 
   content: {
-    type: "markdown",   // generic rich-text page
+    type: "markdown",   
 
-    // Main page content supports FULL MARKDOWN
+
     body: `
 
 ## Research Overview
@@ -140,7 +122,7 @@ of the IGM itself in an independent manner.
 
     
 
-    // ── PUBLICATIONS ────────────────────────────────────────
+    // ── PUBLICATIONS ──
     {
       id:    "publications",
       label: "Science Publications",
@@ -158,6 +140,14 @@ of the IGM itself in an independent manner.
             venue:   "Astronomy & Astrophysics, 707, A309 (2026)",
             url:     "https://doi.org/10.1051/0004-6361/202557380",
           },
+             {
+             title:   "Ram-pressure signatures in the dwarf irregular galaxy SextansB revealed by deep MeerKAT HI observations",
+             authors: "Namumba, B., Kolhe, N., Hammer, F, Yang, Y., et al.",
+             venue:   "Astronomy & Astrophysics, 2026",
+             url:     "https://scixplorer.org/abs/2026A%26A...712A..27N/abstract?fromADS=true&ads_compat=1",
+          },
+          
+          
           {
             title:   "The second data release from the European Pulsar Timing Array III. Search for gravitational wave signals",
             authors: "European Pulsar Timing Array Collaboration, Indian Pulsar Timing Array Collaboration",
@@ -182,6 +172,14 @@ of the IGM itself in an independent manner.
     venue:   "Astronomy & Astrophysics, 2026",
     url:     "https://ui.adsabs.harvard.edu/abs/2026A&A...707A.309K",
   },
+
+   {
+    title:   "Ram-pressure signatures in the dwarf irregular galaxy SextansB revealed by deep MeerKAT HI observations",
+    authors: "Namumba, B., Kolhe, N., Hammer, F, Yang, Y., et al.",
+    venue:   "Astronomy & Astrophysics, 2026",
+    url:     "https://scixplorer.org/abs/2026A%26A...712A..27N/abstract?fromADS=true&ads_compat=1",
+  },
+          
   {
     title:   "The second data release from the European Pulsar Timing Array. V. Search for continuous gravitational wave signals",
     authors: "EPTA Collaboration, InPTA Collaboration, Antoniadis, J., et al. (including Kolhe, N.)",
@@ -264,7 +262,7 @@ of the IGM itself in an independent manner.
       },
     },
 
-    // ── WRITINGS ────────────────────────────────────────────
+    // ── WRITINGS ───
     {
       id:    "writings",
       label: "Other Writings",
@@ -307,7 +305,7 @@ light pollution and space debris. There is very little discussion aboout how thi
       },
     },
 
-    // ── TALKS / OUTREACH ─────────────────────────────────────
+    // ── TALKS / OUTREACH ──
     {
       id:    "outreach",
       label: "Public Talks & appearances",
@@ -353,7 +351,7 @@ discussions about careers in science.`,
       },
     },
 
-    // ── CV ──────────────────────────────────────────────────
+    // ── CV ─
     {
       id:    "cv",
       label: "CV",
@@ -367,7 +365,7 @@ discussions about careers in science.`,
       },
     },
 
-    // ── CONTACT ─────────────────────────────────────────────
+    // ── CONTACT ──
     {
       id:    "contact",
       label: "Contact",
